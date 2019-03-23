@@ -43,8 +43,6 @@ public class Main {
         System.out.println(m2.a); // 70
 
         System.out.println("--------------------------");
-
-
     }
 
     public static int sum(int number1, int number2) {
