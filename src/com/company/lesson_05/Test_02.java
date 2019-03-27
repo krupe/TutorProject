@@ -6,8 +6,8 @@ package com.company.lesson_05;
 public class Test_02 {
     public static void main(String[] args){
 
-        int t=0;
-         while(t < 10){
+        int t=1;
+         while(t < 11){
              System.out.println(t);
              t++;
          }

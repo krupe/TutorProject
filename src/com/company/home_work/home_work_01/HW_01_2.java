@@ -1,4 +1,9 @@
-package com.company.home_work;
+package com.company.home_work.home_work_01;
+/*
+1) Создать по одной переменной каждого типа данных, который ты знаешь.
+2) Присвоить каждой переменной значение в диапазоне типа.
+3) Вывести значение каждой переменной в консоль, каждое значение выводить с новой строки.
+*/
 
 public class HW_01_2 {
     public static void main(String[] args){
