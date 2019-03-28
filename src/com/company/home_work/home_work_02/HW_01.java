@@ -10,9 +10,9 @@ import java.io.InputStreamReader;
 public class HW_01 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf= new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter number1:");
+        System.out.println("Enter number:");
         int num1 =Integer.parseInt(bf.readLine());
-        System.out.println("Enter number2:");
+        System.out.println("Enter number:");
         int num2 =Integer.parseInt(bf.readLine());
 
         if(num1>num2){
