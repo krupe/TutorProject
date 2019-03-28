@@ -6,11 +6,19 @@ package com.company.home_work.home_work_01;
 Я буду зарабатывать $50 в час
 */
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+
 public class HW_01_3 {
-    public static void main (String[] args){
-        int a=100;
-        System.out.println("Я буду зарабатывать $"+a+" в час.");
-        System.out.format("Я буду зарабатывать $%d в час.",a);
+    public static void main (String[] args) throws IOException {
+        BufferedReader bf= new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter a number:");
+        int number =Integer.parseInt(bf.readLine());
+        System.out.println("Я буду зарабатывать $"+number+" в час.");
+
 
 
     }
