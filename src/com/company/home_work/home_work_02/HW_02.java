@@ -21,7 +21,7 @@ public class HW_02 {
         System.out.println("Enter num3:");
         String str2= bf.readLine();
         int num3=Integer.parseInt(str2);
-// TODO: 28.03.2019  
+// TODO: 28.03.2019
         if(num1>num2 && num3>num2){
             System.out.println(num3);
         } else if(num1>num2 && num3<num2){
