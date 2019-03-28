@@ -11,8 +11,12 @@ package com.company.home_work.home_work_01;
   d = 27;
  */
 public class HW_01_4 {
-    public static void main(String[] args) {
-
-
+    public static void main(String[] args){
+        int a=1;
+        int b=3;
+        int c=9;
+        int d=27;
+         int result =-a+b-c+d;
+        System.out.println(result);
     }
 }
