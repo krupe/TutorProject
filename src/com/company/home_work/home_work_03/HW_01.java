@@ -5,4 +5,7 @@ package com.company.home_work.home_work_03;
 */
 
 public class HW_01 {
+    public static void main(String[] args) {
+
+    }
 }
