@@ -12,8 +12,10 @@ import java.io.InputStreamReader;
 */
 public class HW_05 {
     public static void main(String[] args) throws IOException {
+
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter name");
+
         String st= bf.readLine();
 
 
