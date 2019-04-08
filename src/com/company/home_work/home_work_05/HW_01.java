@@ -21,12 +21,13 @@ public class HW_01 {
         System.out.println("Ввести строку:");
         String st = bf.readLine();
         System.out.println("Ввести число:");
-        int num = Integer.parseInt(bf.readLine());
+        int num1 = Integer.parseInt(bf.readLine());
 
-        int r = 1;
-        while (r < 3) {
+        int i = 1;
+        while (i < 3) {
             System.out.println(st);
-            r++;
+            i++;
+
         }
 
 

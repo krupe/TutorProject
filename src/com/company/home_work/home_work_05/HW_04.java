@@ -17,4 +17,18 @@ package com.company.home_work.home_work_05;
 */
 
 public class HW_04 {
+    public static void main(String[] args) {
+        for (int i = 1; i < 10; i++) {
+            System.out.print("8");
+
+        }
+        for (int k = 0; k < 11; k++) {
+            System.out.println("8");
+
+        }
+
+    }
+
+
 }
+
