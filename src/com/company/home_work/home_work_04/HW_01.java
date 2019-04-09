@@ -5,4 +5,13 @@ package com.company.home_work.home_work_04;
 // метода больше 5 - и, и выводить строку "Число равно 5", если параметр метода равен 5 - и.
 
 public class HW_01 {
+    public static void main(String[] args) {
+
+    }
+
+
+
+
+
+
 }

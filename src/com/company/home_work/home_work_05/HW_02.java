@@ -15,13 +15,14 @@ public class HW_02 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Ввести число1:");
-        int num1=Integer.parseInt(bf.readLine());
-        System.out.println("Ввести число2:");
-        int num2=Integer.parseInt(bf.readLine());
+        System.out.println("Ввести число m:");
+        int m=Integer.parseInt(bf.readLine());
+        System.out.println("Ввести число n:");
+        int n=Integer.parseInt(bf.readLine());
+
 
         for(int i=1; i<=2;i++){
-            System.out.println("8888");
+            System.out.println();
         }
     }
 }

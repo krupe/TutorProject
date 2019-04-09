@@ -9,20 +9,27 @@ import java.io.InputStreamReader;
  -1 должно учитываться в сумме.
 */
 public class HW_06 {
+
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter number1:");
-        int num1 = Integer.parseInt(bf.readLine());
-        System.out.println("Enter number2:");
-        int num2 = Integer.parseInt(bf.readLine());
+        int num;
+        int a=0;
+        sum(0,2);
 
 
-        if (num1 >= -100) {
-            System.out.println(sum(num1, num2));
-        }
+
+        do {
+             num = Integer.parseInt(bf.readLine());
+
+        } while (num != -1);
+//        System.out.println(sum(a,num));
+        int s=num+a;
+        System.out.println(s);
     }
+    public static int sum(int num,int a){
 
-     private static int sum(int num1, int num2) {
-        return num1 + num2;
+        return a=+num;
+
+
     }
 }
