@@ -15,13 +15,10 @@ public class Test_01 {
     public static void main(String[] args) throws IOException {
         int[] array = new int[10];
 
-        initializeArray();
+        initializeArray(array);
         int m = max(array);
         System.out.println(m);
-
     }
-
-
 
     public static void initializeArray(int[] array) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
