@@ -18,7 +18,7 @@ public class Test_01 {
             array[i] = Integer.parseInt(bf.readLine());
 
         }
-            for ( int j =array.length-1 ; j <array.length ; --j) {
+            for ( int j =array.length-1 ; j >=0; j--) {//
 
 
                 System.out.println(array[j]);
