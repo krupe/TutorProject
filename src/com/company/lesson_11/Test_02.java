@@ -20,6 +20,14 @@ public class Test_02 {
         }
         int[]array1=new int[5];
         int[]array2=new int[5];
+        for (int i = array1.length; i <array.length ; i++) {
+            for (int j = array2.length; j <array.length ; j++) {
+
+
+                System.out.println(array[j]);
+            }
+
+        }
 
     }
 }
