@@ -15,12 +15,17 @@ public class Test_01 {
         int[] array=new int[5];
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i <array.length ; i++) {
-            array[i]=Integer.parseInt(bf.readLine());
-            array[i]=4-i;
-            for (int j = 4; j <array.length ; j++) {
+            array[i] = Integer.parseInt(bf.readLine());
+
+        }
+            for ( int j = 0; j <array.length ; j++) {
+
+
+                System.out.println(array[j]);
 
             }
-            System.out.println(array[i]);
-        }
+
+
+
     }
 }
