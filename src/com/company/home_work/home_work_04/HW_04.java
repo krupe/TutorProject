@@ -19,7 +19,8 @@ public class HW_04 {
         return Integer.parseInt(bf.readLine());
 
     }
-    public static void closeToTen(){
+    public static void closeToTen(int a,int b){
+
 
 
     }

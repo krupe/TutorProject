@@ -32,6 +32,7 @@ public class HW_02 {
     }
 
      static double convert(double grivna) {
+
         return grivna / 27.2;
     }
 

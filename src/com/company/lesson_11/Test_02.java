@@ -13,22 +13,27 @@ import java.io.InputStreamReader;
 */
 public class Test_02 {
     public static void main(String[] args) throws IOException {
-        int[]array=new int[10];
-        for (int i = 0; i <array.length ; i++) {
-            BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
-            array[i]=Integer.parseInt(bf.readLine());
+        int[] array = new int[10];
+
+        for (int i = 0; i < array.length; i++) {
+            BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+            array[i] = Integer.parseInt(bf.readLine());
         }
-        int[]array1=new int[5];
-        int[]array2=new int[5];
-        for (int i = array1.length; i <array.length ; i++) {
+        int[] array1 = new int[5];
+        int[] array2 = new int[5];
+        for (int i = 0; i <= 4; i++) {
+
+//            System.out.print(array[i]);
 
         }
-            for (int j = 5; j <array.length ; j++) {//i=5; 5<10;5+1;
-                                                    //i=6; 6<10;6+1;
+//        System.out.println();
 
-                System.out.println(array[j]);
-            }
+        for (int t = 5; t < array.length; t++) {
 
+            //i=5; 5<10;5+1;
+            //i=6; 6<10;6+1;
+            System.out.println(array[t]);
+        }
 
 
     }

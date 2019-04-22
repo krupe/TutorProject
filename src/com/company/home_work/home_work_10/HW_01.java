@@ -13,27 +13,30 @@ import java.io.InputStreamReader;
 */
 public class HW_01 {
     public static void main(String[] args) throws IOException {
-        String[] arr=new String[10];
-        initializeArray(arr);
-        int st=printArray(arr);
-        System.out.println(st);
-    }
-    public static void  initializeArray(String[] arr) throws IOException {
 
+        String[] arr = initializeArray();
+        printArray(arr);
+
+    }
+    public static  String[] initializeArray() throws IOException {
+        String[] arr=new String[10];
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i <8 ; i++) {
-            String st = bf.readLine();
-            arr[i]=st;
+
+            arr[i]=bf.readLine();
         }
+        return arr;
 
     }
-    public static  int printArray(String[] arr)  {
-       String s=arr[0];
-        for (int i = 0; i <arr.length ; i++) {
-            s=arr[i];
-            arr[i]=10-i;
+    public static void printArray(String[] arr1)  {
+
+
+        for (int i = arr1.length-1; i >=0; i--) {
+
+            System.out.println(arr1[i]);
 
         }
-        return ;
+
+
     }
 }
